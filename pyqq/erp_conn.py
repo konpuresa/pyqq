@@ -5,7 +5,7 @@ Created on 2013/11/6
 '''
 import pymssql
 
-conn = pymssql.connect(host='192.168.123.61', user='sa', password='dsc', database='caspar')
+conn = pymssql.connect(host='127.0.0.1', user='sa', password='jumbo.net', database='caspar')
 cur = conn.cursor()
 #cur.execute('CREATE TABLE persons(id INT, name VARCHAR(100))')
 #cur.executemany("INSERT INTO persons VALUES(%d, %s)", \
